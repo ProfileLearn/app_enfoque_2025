@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8"  />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Document</title>
+</head>
+
+<body>
+	<main class="appMain">
+		<div id="contLetras">
+			<p id="instrucciones">Entrena tu coordinación entre los Hemisferios Cerebrales <br>
+				Debes Decir en voz alta el color de las letras</p>
+			<h1>--</h1>
+		</div>
+		<div class="btns">
+			<div class="start"><img src="play.png" alt="Play"></div>
+			<div id="speedContainer">
+				<label>Interval</label>
+				<br>
+				<input type="number" min="400" max="3000" placeholder="2000ms">
+			</div>
+			<div class="stop"><img src="stop.png" alt="Stop"></div>
+		</div>
+
+	</main>
+	<script src="./speech.js"></script>
+	<script src="./funciones.js"></script>
+	<script src="./app.js"></script>
+</body>
+
+</html>
