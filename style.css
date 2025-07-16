@@ -2,11 +2,11 @@
 .appMain {
 	background-color: white;
 	margin: auto;
-	
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #contLetras {
@@ -15,14 +15,15 @@
 
 
 #speedContainer {
-	margin: auto 0;
 	font-weight: bold;
 	font-size: 1.3em;
+	display: flex;
+	flex-direction: column;
 }
 #speedContainer input {
 	border: 5px solid black;
-	margin-top: 1em;
 	text-align: center;
+	border-radius: 5px;
 }
 
 h1 {
